@@ -1,0 +1,10 @@
+{
+  "flash.nvim": {
+    "branch": "main",
+    "commit": "f899265876ecdcf7352dbc9f0adf87068cedefbb"
+  },
+  "lazy.nvim": {
+    "branch": "main",
+    "commit": "7527af40ddd4a93a02911be570b32609b9d4ea53"
+  }
+}

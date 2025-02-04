@@ -10,3 +10,6 @@ vim.api.nvim_set_keymap("n", "H", "^", {
   noremap = true,
   silent = true,
 })
+
+-- rename
+vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { noremap = true, silent = true })

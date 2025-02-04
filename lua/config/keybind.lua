@@ -1,7 +1,13 @@
+-- <leader>
+vim.g.mapleader = " "
+
+-- jj to escape
 vim.api.nvim_set_keymap("i", "jj", "<Esc>", {
   noremap = true,
   silent = true,
 })
+
+-- Shift-L/H to go to end/beginning of line
 vim.api.nvim_set_keymap("n", "L", "$", {
   noremap = true,
   silent = true,

@@ -19,3 +19,8 @@ vim.api.nvim_set_keymap("n", "H", "^", {
 
 -- rename
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { noremap = true, silent = true })
+
+-- <leader>o to create a new line below and return to normal mode
+vim.api.nvim_set_keymap("n", "<leader>o", "o<Esc>", { noremap = true, silent = true })
+-- <leader>O to create a new line above and return to normal mode
+vim.api.nvim_set_keymap("n", "<leader>O", "O<Esc>", { noremap = true, silent = true })

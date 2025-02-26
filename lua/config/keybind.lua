@@ -24,3 +24,7 @@ vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { noremap = true, silent =
 vim.api.nvim_set_keymap("n", "<leader>o", "o<Esc>", { noremap = true, silent = true })
 -- <leader>O to create a new line above and return to normal mode
 vim.api.nvim_set_keymap("n", "<leader>O", "O<Esc>", { noremap = true, silent = true })
+
+-- scroll and center
+vim.api.nvim_set_keymap("n", "<C-d>", "<C-d>zz", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-u>", "<C-u>zz", { noremap = true, silent = true })
